@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    height: 25px;
+    width: auto;
+    background-image: url("fullbackground.jpg");
+    display: flex;
+    justify-content: space-evenly;
+    color:green;
+}
+
+/* .container1:hover {
+    color:red;
+} */
+h2 {
+    text-align: center !important;
+    margin-top: 100px;
+}
+
+.social {
+    margin-top: 100px;
+}
+#card {
+    display: flex;
+       
+}
+#about {
+    display: flex;
+   
+
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    align-items: flex-start;
+}
+
+#footer {
+    bottom: 0vh;
+    width: 100%;
+    text-align: center;
+    background-image: url("fullbackground.jpg");    
+}
+body {
+    text-align:center;
+}
+
+#me {
+    display: flex;
+    margin-left: 50px;
+
+}
+.wrapper2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row; 
+    height: 100px;
+    width: 100%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+#bootstrap {
+    display: flex;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#bootstrap:hover {
+    -webkit-transform: rotateY(40deg);
+    -moz-transform: rotateY(40deg);
+    -ms-transform: rotateY(40deg);
+    -o-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+}
+
+#css {
+    display: flex;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#css:hover {
+    -webkit-transform: rotateY(40deg);
+    -moz-transform: rotateY(40deg);
+    -ms-transform: rotateY(40deg);
+    -o-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+}
+
+
+#html {
+    display: flex;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#html:hover {
+    -webkit-transform: rotateY(40deg);
+    -moz-transform: rotateY(40deg);
+    -ms-transform: rotateY(40deg);
+    -o-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+}
+
+
+#javascript {
+    display: flex;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#javascript:hover {
+    -webkit-transform: rotateY(40deg);
+    -moz-transform: rotateY(40deg);
+    -ms-transform: rotateY(40deg);
+    -o-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+}
+
+#jquery {
+    display: flex;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#jquery:hover {
+    -webkit-transform: rotateY(40deg);
+    -moz-transform: rotateY(40deg);
+    -ms-transform: rotateY(40deg);
+    -o-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+}
+
+#node {
+    display: flex;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#node:hover {
+    -webkit-transform: rotateY(40deg);
+    -moz-transform: rotateY(40deg);
+    -ms-transform: rotateY(40deg);
+    -o-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+}
+
+#studio {
+    display: flex;
+    max-height: 100px;
+    max-width: 100px;    
+}
+
+#studio:hover {
+    -webkit-transform: rotateY(40deg);
+    -moz-transform: rotateY(40deg);
+    -ms-transform: rotateY(40deg);
+    -o-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+}
+
+.wrapper3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-flow: row;
+    height: 100px;
+    width: 100%;
+}
+img:hover {
+    transform: scale(2);
+}
+
+.transform {
+    transform: scale(2);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#api:hover {
+    color: darkgoldenrod;
+    background-color: darkmagenta;
+}
+
+h2:hover {
+    color: gold;
+    transform: scale(2);
+}
+
+#about {
+    color: mediumseagreen;
+    background-image: url("fullbackground.jpg");
+}
+
+#about:hover {
+    color: darkmagenta;
+    background-image: url("background.jfif");
+}
+
+#footer:hover {
+    color:red;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+#something {
+    background-image: url("fullbackground.jpg");
+    color: red;
+    background-repeat: repeat;
+}
